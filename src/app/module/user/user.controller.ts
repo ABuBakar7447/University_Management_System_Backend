@@ -15,7 +15,7 @@ const createStudent = catchAsync(async (req: Request, res: Response, next:NextFu
   sendResponse(res, {
       statusCode:200,
       success:true,
-      message:'Students are retrived successfully',
+      message:'Students are created successfully',
       data:result
   })
   
